@@ -65,3 +65,5 @@ The module also includes a server suitable for running in a Docker container.
 3. `mkdir keys && ssh-keygen -t rsa -f keys/server_key_rsa`
 4. For each user, `ssh-keygen -t rsa -f keys/id_<username>`
 5. `docker-compose up`
+
+## Added to Test slack integration
